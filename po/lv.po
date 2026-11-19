@@ -1,43 +1,45 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-netbook package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Rihards Priedītis <rprieditis@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Martin Wimpress <code@flexion.org>, 2019
 # reki the human <voiceofwise1@gmail.com>, 2020
 # Transifex Bot <>, 2026
-# 
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-netbook 1.26.0\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/mate/MATE/\n"
 "POT-Creation-Date: 2022-10-29 15:24+0200\n"
-"PO-Revision-Date: 2018-03-11 19:20+0000\n"
-"Last-Translator: Transifex Bot <>, 2026\n"
-"Language-Team: Latvian (https://app.transifex.com/mate/teams/13566/lv/)\n"
+"PO-Revision-Date: 2026-11-19 21:20+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-netbook/lv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in:5
 #: mate-window-picker-applet/applet.c:317
 msgid "Show all windows"
-msgstr ""
+msgstr "Rādīt visus logus"
 
 #: mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in:6
 #: mate-window-picker-applet/applet.c:319
 msgid "Show windows from all workspaces."
-msgstr ""
+msgstr "Rādīt logus no visām darba vietām."
 
 #: mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in:10
 #: mate-window-picker-applet/applet.c:326
 msgid "Show desktop title and logout button"
-msgstr ""
+msgstr "Rādīt darbvirsmas virsrakstu un atteikšanās pogu"
 
 #: mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in:11
 #: mate-window-picker-applet/applet.c:328
@@ -45,20 +47,22 @@ msgid ""
 "Show a title for the desktop when no window is selected, and append a logout"
 " button."
 msgstr ""
+"Rādīt darbvirsmas virsrakstu, kad nav atlasīts neviens logs, un pievienot "
+"atteikšanās pogu."
 
 #: mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in:15
 #: mate-window-picker-applet/applet.c:335
 msgid "Bold windows title"
-msgstr ""
+msgstr "Logu virsraksti treknrakstā"
 
 #: mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in:16
 #: mate-window-picker-applet/applet.c:337
 msgid "Show windows title with a bold face."
-msgstr ""
+msgstr "Rādīt logu virsrakstus treknrakstā."
 
 #: mate-window-picker-applet/org.mate.panel.MateWindowPicker.mate-panel-applet.desktop.in.in:5
 msgid "Window Picker Applet Factory"
-msgstr ""
+msgstr "Logu izvēlētāja sīklietotnes ražotne"
 
 #: mate-window-picker-applet/org.mate.panel.MateWindowPicker.mate-panel-applet.desktop.in.in:9
 #: mate-window-picker-applet/applet.c:244
@@ -80,20 +84,23 @@ msgid ""
 "Copyright © 2013-2014 Stefano Karapetsas\n"
 "Copyright © 2015-2021 MATE developers"
 msgstr ""
+"Autortiesības © 2008 Canonical Ltd\n"
+"Autortiesības © 2013-2014 Stefano Karapetsas\n"
+"Autortiesības © 2015-2021 MATE izstrādātāji"
 
 #: mate-window-picker-applet/applet.c:300
 msgid "Preferences"
-msgstr "Iestatījumi"
+msgstr "Preferences"
 
 #: mate-window-picker-applet/task-title.c:69
 #: mate-window-picker-applet/task-title.c:315
 msgid "Log off, switch user, lock screen or power down the computer"
-msgstr "Atteikties, nomainīt lietotāju, noslēgt ekrānu vai izslēgt datoru"
+msgstr "Atteikties, nomainīt lietotāju, bloķēt ekrānu vai izslēgt datoru"
 
 #: mate-window-picker-applet/task-title.c:86
 #, c-format
 msgid "There was an error executing '%s': %s"
-msgstr "Kļūda, izpildot '%s': %s"
+msgstr "Neizdevās izpildīt '%s': %s"
 
 #: mate-window-picker-applet/task-title.c:309
 #: mate-window-picker-applet/task-title.c:574
@@ -114,20 +121,20 @@ msgstr "Aizvērt pašreizējo logu."
 
 #: mate-window-picker-applet/task-item.c:681
 msgid "Window Task Button"
-msgstr "Loga uzdevumu poga"
+msgstr "Loga uzdevuma poga"
 
 #: maximus/org.mate.maximus.gschema.xml.in:5
 msgid "A list of exclusion strings which apply to the window class."
-msgstr ""
+msgstr "Izņēmumu virkņu saraksts, kas attiecas uz loga klasi."
 
 #: maximus/org.mate.maximus.gschema.xml.in:6
 msgid "A list of exclusion strings which apply to the window class"
-msgstr ""
+msgstr "Izņēmumu virkņu saraksts, kas attiecas uz loga klasi"
 
 #: maximus/org.mate.maximus.gschema.xml.in:10
 #: maximus/org.mate.maximus.gschema.xml.in:11
 msgid "A binding"
-msgstr ""
+msgstr "Taustiņu sasaiste"
 
 #: maximus/org.mate.maximus.gschema.xml.in:15
 #: maximus/org.mate.maximus.gschema.xml.in:16
@@ -136,10 +143,12 @@ msgstr "Nedekorēt logus, kad tie ir maksimizēti"
 
 #: maximus/org.mate.maximus.gschema.xml.in:20
 msgid "Do not automatically maximize newly opened windows"
-msgstr "Jauni logi netiks automātiski maksimizēti"
+msgstr "Automātiski nemaksimizēt jaunatvērtos logus"
 
 #: maximus/org.mate.maximus.gschema.xml.in:21
 msgid ""
 "Do not automatically maximize newly opened windows. If undecorate is set, "
 "will still undecorate maximized windows."
 msgstr ""
+"Automātiski nemaksimizēt jaunatvērtos logus. Ja iestatīta nedekorēšana, "
+"maksimizētie logi tik un tā tiks nedekorēti."
